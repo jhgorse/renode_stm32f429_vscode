@@ -17,6 +17,8 @@
             "toolchainPrefix": "arm-none-eabi-",
             "gdbPath": "arm-none-eabi-gdb",
             "showDevDebugOutput": "raw",
+            "overrideLaunchCommands": ["monitor start"],
+            "overrideRestartCommands": ["monitor pause","monitor runMacro $reset"],
         }
     ]
 }
