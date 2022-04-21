@@ -1,2 +1,3 @@
 Debug/
 /tester_display_touchscreen_bootloader.elf.launch
+*.o
