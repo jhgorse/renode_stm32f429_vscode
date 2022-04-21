@@ -5,10 +5,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Cortex Debug",
+            "name": "Cortex Debug Renode",
             "cwd": "${workspaceFolder}",
             "executable": "./test1.elf",
-            "device": "Cortex-M4",
+            "device": "STM32F429x",
             "request": "launch",
             "type": "cortex-debug",
             "runToEntryPoint": "main",
@@ -17,8 +17,9 @@
             "toolchainPrefix": "arm-none-eabi-",
             "gdbPath": "arm-none-eabi-gdb",
             "showDevDebugOutput": "raw",
-            "overrideLaunchCommands": ["monitor start"],
+            "overrideLaunchCommands": ["monitor start", "continue"],
             "overrideRestartCommands": ["monitor pause","monitor runMacro $reset"],
+            "postStartSessionCommands": ["break main"]
         }
     ]
 }
