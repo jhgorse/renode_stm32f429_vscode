@@ -2,17 +2,19 @@
 :description: This script runs usart3 retarget on STM32F429
 
 using sysbus
-logFile @/Users/jhg/Documents/Work2022/test1/function-trace.log
+logFile $ORIGIN/function-trace.log
 
 $name?="STM32F429"
 mach create $name
 
-machine LoadPlatformDescription "platforms/cpus/stm32f429.repl"
+machine LoadPlatformDescription @platforms/cpus/stm32f429.repl
+machine LoadPlatformDescription $ORIGIN/stm32f429_additions.repl
 machine StartGdbServer 3333 true
 
 showAnalyzer usart3
 
-$bin ?= "/Users/jhg/Documents/Work2022/test1/test1.elf"
+path add $ORIGIN
+$bin ?= @test1.elf
 
 macro reset
 """
