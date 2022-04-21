@@ -60,6 +60,10 @@ static void SystemClock_Config(void)
 
 int main(void)
 {
+	printf_Retarget_Init(); // Retarget UART for stdio so printf outputs to debug UART3
+	printf("\n\r\n\r");
+	printf("printf_Retarget_Init() complete \n\r");
+
 	// STM STD Periph init
 	HAL_Init();
 	// enable the clock to port c
@@ -72,9 +76,7 @@ int main(void)
 
 	SystemClock_Config();
 
-	printf_Retarget_Init(); // Retarget UART for stdio so printf outputs to debug UART3
-	printf("\n\r\n\r");
-	printf("printf_Retarget_Init() complete \n\r");
+
 	printf("Test assert(0) failure: ");
 	assert(0);
 
