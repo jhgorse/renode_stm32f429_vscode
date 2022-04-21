@@ -1,0 +1,2 @@
+ccram: Memory.MappedMemory @ sysbus 0x10000000
+    size: 0x00010000
