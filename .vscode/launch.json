@@ -14,8 +14,7 @@
             "runToEntryPoint": "main",
             "servertype": "external",
             "gdbTarget": "localhost:3333",
-            "toolchainPrefix": "/usr/local/bin",
-            "gdbPath": "/usr/local/bin/arm-none-eabi-gdb"
+            "toolchainPrefix": "arm-none-eabi-",
         }
     ]
 }
