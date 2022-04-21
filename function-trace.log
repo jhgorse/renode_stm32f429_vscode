@@ -1,0 +1,1371 @@
+23:16:49 [INFO] System bus created.
+23:16:49 [INFO] sysbus: Loaded SVD: /var/folders/zf/s654_gmx6v5c7tnp9h79fjq40000gn/T/renode-20860/7877c2dd-e2b3-4083-aaf4-eaf2060f39b8.tmp. Name: STM32F429x. Description: STM32F429x.
+23:16:49 [INFO] STM32F429: GDB server with all CPUs started on port :3333
+23:16:49 [WARNING] The font 'Roboto Mono' defined in the config file cannot be loaded.
+23:16:49 [DEBUG] sysbus: Loading ELF /Users/jhg/Documents/Work2022/test1/test1.elf.
+23:16:49 [INFO] sysbus: Loading segment of 182396 bytes length at 0x8000000.
+23:16:49 [NOISY] flash: Allocating segment of size 131072.
+23:16:49 [NOISY] flash: Segment no 0 allocated at 0x7FCC9DFC9000 (aligned to 0x7FCC9DFCA000).
+23:16:49 [NOISY] flash: Invalidating memory fragment at 0x0 of size 131072 bytes.
+23:16:49 [NOISY] flash: Allocating segment of size 131072.
+23:16:49 [NOISY] flash: Segment no 1 allocated at 0x7FCC9DFA8000 (aligned to 0x7FCC9DFA9000).
+23:16:49 [NOISY] flash: Invalidating memory fragment at 0x20000 of size 51324 bytes.
+23:16:49 [DEBUG] sysbus: Segment loaded.
+23:16:49 [INFO] sysbus: Loading segment of 2532 bytes length at 0x802C87C.
+23:16:49 [NOISY] flash: Invalidating memory fragment at 0x2C87C of size 2532 bytes.
+23:16:49 [DEBUG] sysbus: Segment loaded.
+23:16:49 [INFO] sysbus: Loading segment of 16384 bytes length at 0x802D260.
+23:16:49 [NOISY] flash: Invalidating memory fragment at 0x2D260 of size 16384 bytes.
+23:16:49 [DEBUG] sysbus: Segment loaded.
+23:16:49 [INFO] sysbus: Loading segment of 888 bytes length at 0x200009E4.
+23:16:49 [NOISY] sram: Allocating segment of size 65536.
+23:16:49 [NOISY] sram: Segment no 0 allocated at 0x7FCCAF155000 (aligned to 0x7FCCAF156000).
+23:16:49 [NOISY] sram: Invalidating memory fragment at 0x9E4 of size 888 bytes.
+23:16:49 [DEBUG] sysbus: Segment loaded.
+23:16:54 [NOISY] cpu: Trying to find the mapping for offset 0x8000000.
+23:16:54 [NOISY] cpu: Allocated 24B pointer at 0x140517191891680.
+23:16:54 [NOISY] cpu: Allocated is now 79.44MiB.
+23:16:54 [NOISY] cpu: Allocated 48B pointer at 0x140516814517664.
+23:16:54 [NOISY] cpu: Allocated is now 79.44MiB.
+23:16:54 [NOISY] cpu: Allocated 24B pointer at 0x140517191786208.
+23:16:54 [NOISY] cpu: Allocated is now 79.44MiB.
+23:16:54 [NOISY] cpu: Allocated 24B pointer at 0x140517191928752.
+23:16:54 [NOISY] cpu: Allocated is now 79.44MiB.
+23:16:54 [NOISY] cpu: Allocated 24B pointer at 0x140517191927344.
+23:16:54 [NOISY] cpu: Allocated is now 79.44MiB.
+23:16:54 [NOISY] cpu: Deallocated a 24B pointer at 0x140517191891680.
+23:16:54 [NOISY] cpu: Memory mappings rebuilt, there are 1 host blocks now.
+23:16:54 [NOISY] flash: Invalidating memory fragment at 0x0 of size 428 bytes.
+23:16:54 [NOISY] flash: Invalidating memory fragment at 0x1C0 of size 576 bytes.
+23:16:54 [NOISY] flash: Invalidating memory fragment at 0x400 of size 1024 bytes.
+23:16:54 [NOISY] flash: Invalidating memory fragment at 0x1180 of size 1024 bytes.
+23:16:54 [NOISY] flash: Invalidating memory fragment at 0x1F00 of size 1024 bytes.
+23:16:54 [NOISY] flash: Invalidating memory fragment at 0x2C80 of size 384 bytes.
+23:16:54 [NOISY] flash: Invalidating memory fragment at 0x1180 of size 640 bytes.
+23:16:54 [NOISY] flash: Invalidating memory fragment at 0x1400 of size 1024 bytes.
+23:16:54 [NOISY] flash: Invalidating memory fragment at 0x2150 of size 1024 bytes.
+23:16:54 [NOISY] flash: Invalidating memory fragment at 0x2EA0 of size 1024 bytes.
+23:16:54 [NOISY] flash: Invalidating memory fragment at 0x3BF0 of size 336 bytes.
+23:16:54 [NOISY] flash: Invalidating memory fragment at 0x2150 of size 688 bytes.
+23:16:54 [NOISY] flash: Invalidating memory fragment at 0x2400 of size 1024 bytes.
+23:16:54 [NOISY] flash: Invalidating memory fragment at 0x3110 of size 1024 bytes.
+23:16:54 [NOISY] flash: Invalidating memory fragment at 0x3E20 of size 1024 bytes.
+23:16:54 [NOISY] flash: Invalidating memory fragment at 0x4B30 of size 272 bytes.
+23:16:54 [NOISY] flash: Invalidating memory fragment at 0x3110 of size 752 bytes.
+23:16:54 [NOISY] flash: Invalidating memory fragment at 0x3400 of size 1024 bytes.
+23:16:54 [NOISY] flash: Invalidating memory fragment at 0x40E0 of size 1024 bytes.
+23:16:54 [NOISY] flash: Invalidating memory fragment at 0x4DC0 of size 1024 bytes.
+23:16:54 [NOISY] flash: Invalidating memory fragment at 0x5AA0 of size 224 bytes.
+23:16:54 [NOISY] flash: Invalidating memory fragment at 0x40E0 of size 800 bytes.
+23:16:54 [NOISY] flash: Invalidating memory fragment at 0x4400 of size 1024 bytes.
+23:16:54 [NOISY] flash: Invalidating memory fragment at 0x50A0 of size 1024 bytes.
+23:16:54 [NOISY] flash: Invalidating memory fragment at 0x5D40 of size 1024 bytes.
+23:16:54 [NOISY] flash: Invalidating memory fragment at 0x69E0 of size 160 bytes.
+23:16:54 [NOISY] flash: Invalidating memory fragment at 0x50A0 of size 864 bytes.
+23:16:54 [NOISY] flash: Invalidating memory fragment at 0x5400 of size 1024 bytes.
+23:16:54 [NOISY] flash: Invalidating memory fragment at 0x6070 of size 1024 bytes.
+23:16:54 [NOISY] flash: Invalidating memory fragment at 0x6CE0 of size 1024 bytes.
+23:16:54 [NOISY] flash: Invalidating memory fragment at 0x7950 of size 112 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x6070 of size 912 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x6400 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x7030 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x7C60 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x8890 of size 48 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x7030 of size 976 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x7400 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x8000 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x8C00 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x8000 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x8400 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x8F60 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x9AC0 of size 864 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x8F60 of size 160 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x9000 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x9F00 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0xAE00 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0xBD00 of size 768 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x9F00 of size 256 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0xA000 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0xAEA0 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0xBD40 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0xCBE0 of size 672 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0xAEA0 of size 352 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0xB000 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0xBE20 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0xCC40 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0xDA60 of size 544 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0xBE20 of size 480 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0xC000 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0xCDA0 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0xDB40 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0xE8E0 of size 416 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0xCDA0 of size 608 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0xD000 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0xDD00 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0xEA00 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0xF700 of size 256 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0xDD00 of size 768 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0xE000 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0xEC80 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0xF900 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x10580 of size 128 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0xEC80 of size 896 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0xF000 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0xFC40 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x10880 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x114C0 of size 64 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0xFC40 of size 960 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x10000 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x10BF0 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x117E0 of size 1008 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x10BF0 of size 16 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x10C00 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x11B80 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x12B00 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x13A80 of size 896 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x11B80 of size 128 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x11C00 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x12B40 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x13A80 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x149C0 of size 832 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x12B40 of size 192 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x12C00 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x13AF0 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x149E0 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x158D0 of size 752 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x13AF0 of size 272 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x13C00 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x14A90 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x15920 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x167B0 of size 656 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x14A90 of size 368 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x14C00 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x15A30 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x16860 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x17690 of size 560 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x15A30 of size 464 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x15C00 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x169D0 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x177A0 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x18570 of size 464 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x169D0 of size 560 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x16C00 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x17950 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x186A0 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x193F0 of size 336 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x17950 of size 688 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x17C00 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x188C0 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x19580 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x1A240 of size 192 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x188C0 of size 832 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x18C00 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x19840 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x1A480 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x1B0C0 of size 64 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x19840 of size 960 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x19C00 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x1A7B0 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x1B360 of size 944 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x1A7B0 of size 80 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x1A800 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x1B720 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x1C640 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x1D560 of size 800 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x1B720 of size 224 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x1B800 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x1C6A0 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x1D540 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x1E3E0 of size 672 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x1C6A0 of size 352 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x1C800 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x1D620 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x1E440 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x1F260 of size 544 bytes.
+23:16:55 [NOISY] cpu: Trying to find the mapping for offset 0x8020000.
+23:16:55 [NOISY] cpu: Allocated 48B pointer at 0x140517190861456.
+23:16:55 [NOISY] cpu: Allocated is now 79.44MiB.
+23:16:55 [NOISY] cpu: Allocated 48B pointer at 0x140517190752768.
+23:16:55 [NOISY] cpu: Allocated is now 79.44MiB.
+23:16:55 [NOISY] cpu: Allocated 48B pointer at 0x140517190861120.
+23:16:55 [NOISY] cpu: Allocated is now 79.44MiB.
+23:16:55 [NOISY] cpu: Allocated 48B pointer at 0x140517190868336.
+23:16:55 [NOISY] cpu: Allocated is now 79.44MiB.
+23:16:55 [NOISY] cpu: Allocated 48B pointer at 0x140517190877824.
+23:16:55 [NOISY] cpu: Allocated is now 79.44MiB.
+23:16:55 [NOISY] cpu: Deallocated a 24B pointer at 0x140517191786208.
+23:16:55 [NOISY] cpu: Deallocated a 24B pointer at 0x140517191928752.
+23:16:55 [NOISY] cpu: Deallocated a 24B pointer at 0x140517191927344.
+23:16:55 [NOISY] cpu: Deallocated a 48B pointer at 0x140516814517664.
+23:16:55 [NOISY] cpu: Deallocated a 48B pointer at 0x140517190861456.
+23:16:55 [NOISY] cpu: Memory mappings rebuilt, there are 2 host blocks now.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x1D620 of size 480 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x1D800 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x1E5D0 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x1F3A0 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x20170 of size 464 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x1E5D0 of size 560 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x1E800 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x1F590 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x20320 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x210B0 of size 400 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x1F590 of size 624 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x1F800 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x20560 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x212C0 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x22020 of size 352 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x20560 of size 672 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x20800 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x214F0 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x221E0 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x22ED0 of size 240 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x214F0 of size 784 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x21800 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x22460 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x230C0 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x23D20 of size 96 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x22460 of size 928 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x22800 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x23430 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x24060 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x24C90 of size 48 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x23430 of size 976 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x23800 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x243E0 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x24FC0 of size 992 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x243E0 of size 32 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x24400 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x25390 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x26320 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x272B0 of size 912 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x25390 of size 112 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x25400 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x26320 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x27240 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x28160 of size 800 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x26320 of size 224 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x26400 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x272D0 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x281A0 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x29070 of size 720 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x272D0 of size 304 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x27400 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x28290 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x29120 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x29FB0 of size 656 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x28290 of size 368 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x28400 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x29220 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x2A040 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x2AE60 of size 544 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x29220 of size 480 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x29400 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x2A1B0 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x2AF60 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x2BD10 of size 432 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x2A1B0 of size 592 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x2A400 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x2B150 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x2BEA0 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x2CBF0 of size 336 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x2B150 of size 688 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x2B400 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x2BB18 of size 792 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x2BB18 of size 232 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x2BC00 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x2C86C of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x2D4D8 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x2E144 of size 108 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x2C86C of size 8 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x2C874 of size 4 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x2C878 of size 4 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x2C87C of size 900 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x2CC00 of size 1024 bytes.
+23:16:55 [NOISY] flash: Invalidating memory fragment at 0x2D260 of size 608 bytes.
+23:16:55 [DEBUG] cpu: Added hook @ 0x80214D0
+23:16:55 [DEBUG] cpu: Added hook @ 0x8021C8C
+23:16:55 [DEBUG] cpu: Added hook @ 0x8021F0A
+23:16:55 [INFO] cpu: Guessing VectorTableOffset value to be 0x8000000.
+23:16:55 [NOISY] cpu: VectorTableOffset set to 0x8000000.
+23:16:55 [INFO] cpu: Setting initial values: PC = 0x8023865, SP = 0x1000FFFF.
+23:16:55 [NOISY] cpu: Resumed.
+23:17:00 [NOISY] STM32F429: Starting sysbus.cpu.
+23:17:00 [INFO] STM32F429: Machine started.
+23:17:00 [NOISY] cpu: Allocated 24B pointer at 0x140517191855056.
+23:17:00 [NOISY] cpu: Allocated is now 79.44MiB.
+23:17:00 [NOISY] cpu: Allocated 24B pointer at 0x140517090313744.
+23:17:00 [NOISY] cpu: Allocated is now 79.44MiB.
+23:17:00 [NOISY] cpu: Allocated 24B pointer at 0x140517090313776.
+23:17:00 [NOISY] cpu: Allocated is now 79.44MiB.
+23:17:00 [NOISY] cpu: Allocated 32.02KiB pointer at 0x140517087580160.
+23:17:00 [NOISY] cpu: Allocated is now 79.47MiB.
+23:17:00 [NOISY] cpu: Allocated 24KiB pointer at 0x140516820861440.
+23:17:00 [NOISY] cpu: Allocated is now 79.5MiB.
+23:17:00 [INFO] cpu: Entering function Reset_Handler (entry) at 0x8023864
+23:17:00 [INFO] cpu: Entering function LoopCopyDataInit (entry) at 0x8023874
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [NOISY] cpu: Trying to find the mapping for offset 0x20000000.
+23:17:00 [NOISY] cpu: Allocated 72B pointer at 0x140517190867776.
+23:17:00 [NOISY] cpu: Allocated is now 79.5MiB.
+23:17:00 [NOISY] cpu: Allocated 48B pointer at 0x140517190893296.
+23:17:00 [NOISY] cpu: Allocated is now 79.5MiB.
+23:17:00 [NOISY] cpu: Allocated 72B pointer at 0x140517190620688.
+23:17:00 [NOISY] cpu: Allocated is now 79.5MiB.
+23:17:00 [NOISY] cpu: Allocated 72B pointer at 0x140517190822048.
+23:17:00 [NOISY] cpu: Allocated is now 79.5MiB.
+23:17:00 [NOISY] cpu: Allocated 72B pointer at 0x140517190863376.
+23:17:00 [NOISY] cpu: Allocated is now 79.5MiB.
+23:17:00 [NOISY] cpu: Deallocated a 48B pointer at 0x140517190861120.
+23:17:00 [NOISY] cpu: Deallocated a 48B pointer at 0x140517190868336.
+23:17:00 [NOISY] cpu: Deallocated a 48B pointer at 0x140517190877824.
+23:17:00 [NOISY] cpu: Deallocated a 48B pointer at 0x140517190752768.
+23:17:00 [NOISY] cpu: Deallocated a 72B pointer at 0x140517190867776.
+23:17:00 [NOISY] cpu: Memory mappings rebuilt, there are 3 host blocks now.
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function CopyDataInit (entry) at 0x802386C
+23:17:00 [INFO] cpu: Entering function Reset_Handler at 0x802387E
+23:17:00 [INFO] cpu: Entering function LoopFillZerobss (entry) at 0x8023888
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function FillZerobss (entry) at 0x8023882
+23:17:00 [INFO] cpu: Entering function Reset_Handler at 0x802388E
+23:17:00 [INFO] cpu: Entering function SystemInit (entry) at 0x8021D24
+23:17:00 [NOISY] cpu: Trying to find the mapping for offset 0x1000FC00.
+23:17:00 [NOISY] ccram: Allocating segment of size 65536.
+23:17:00 [NOISY] ccram: Segment no 0 allocated at 0x7FCC9EE14000 (aligned to 0x7FCC9EE15000).
+23:17:00 [NOISY] cpu: Allocated 96B pointer at 0x140517092484464.
+23:17:00 [NOISY] cpu: Allocated is now 79.5MiB.
+23:17:00 [NOISY] cpu: Allocated 48B pointer at 0x140517092486704.
+23:17:00 [NOISY] cpu: Allocated is now 79.5MiB.
+23:17:00 [NOISY] cpu: Allocated 96B pointer at 0x140517092486592.
+23:17:00 [NOISY] cpu: Allocated is now 79.5MiB.
+23:17:00 [NOISY] cpu: Allocated 96B pointer at 0x140517092470336.
+23:17:00 [NOISY] cpu: Allocated is now 79.5MiB.
+23:17:00 [NOISY] cpu: Allocated 96B pointer at 0x140517092485840.
+23:17:00 [NOISY] cpu: Allocated is now 79.5MiB.
+23:17:00 [NOISY] cpu: Deallocated a 72B pointer at 0x140517190620688.
+23:17:00 [NOISY] cpu: Deallocated a 72B pointer at 0x140517190822048.
+23:17:00 [NOISY] cpu: Deallocated a 72B pointer at 0x140517190863376.
+23:17:00 [NOISY] cpu: Deallocated a 48B pointer at 0x140517190893296.
+23:17:00 [NOISY] cpu: Deallocated a 96B pointer at 0x140517092484464.
+23:17:00 [NOISY] cpu: Memory mappings rebuilt, there are 4 host blocks now.
+23:17:00 [DEBUG] nvic: Enabling FPU.
+23:17:00 [WARNING] rcc: Unhandled write to offset 0xC, value 0x0.
+23:17:00 [NOISY] cpu: VectorTableOffset set to 0x8000000.
+23:17:00 [INFO] cpu: Entering function Reset_Handler at 0x8023892
+23:17:00 [INFO] cpu: Entering function __libc_init_array (entry) at 0x80238D8
+23:17:00 [INFO] cpu: Entering function __libc_init_array at 0x80238F2
+23:17:00 [INFO] cpu: Entering function _init (entry) at 0x802BB00
+23:17:00 [INFO] cpu: Entering function __libc_init_array at 0x80238FC
+23:17:00 [INFO] cpu: Entering function __libc_init_array at 0x8023900
+23:17:00 [INFO] cpu: Entering function frame_dummy (entry) at 0x8023840
+23:17:00 [INFO] cpu: Entering function frame_dummy+0xE (guessed) at 0x802384E
+23:17:00 [INFO] cpu: Entering function register_tm_clones (entry) at 0x80237F4
+23:17:00 [INFO] cpu: Entering function register_tm_clones+0xC (guessed) at 0x8023800
+23:17:00 [INFO] cpu: Entering function register_tm_clones+0x16 (guessed) at 0x802380A
+23:17:00 [INFO] cpu: Entering function __libc_init_array at 0x802390A
+23:17:00 [INFO] cpu: Entering function __libc_init_array at 0x802390E
+23:17:00 [INFO] cpu: Entering function Reset_Handler at 0x8023896
+23:17:00 [INFO] cpu: Entering function main (entry) at 0x8021C88
+23:17:00 [DEBUG] cpu: Executing hooks registered at address 0x08021C8C
+23:17:00 [NOISY] cpu: Deallocated a 24B pointer at 0x140517090313744.
+23:17:00 [NOISY] cpu: Waiting for a step instruction (PC=0x08021C8C).
+23:17:00 [NOISY] cpu: Deallocated a 24B pointer at 0x140517191855056.
+23:17:00 [NOISY] cpu: Deallocated a 24B pointer at 0x140517090313776.
+23:17:01 [DEBUG] cpu: Added hook @ 0x80214D0
+23:17:01 [DEBUG] cpu: Added hook @ 0x8021F0A
+23:17:01 [NOISY] cpu: Allocated 24B pointer at 0x140517191858848.
+23:17:01 [NOISY] cpu: Allocated is now 79.5MiB.
+23:17:01 [NOISY] cpu: Allocated 24B pointer at 0x140517191903712.
+23:17:01 [NOISY] cpu: Allocated is now 79.5MiB.
+23:17:01 [INFO] cpu: Entering function main at 0x8021C8C
+23:17:01 [INFO] cpu: Entering function HAL_Init (entry) at 0x801E2DC
+23:17:01 [INFO] cpu: Entering function HAL_SYSTICK_Config (entry) at 0x8012F20
+23:17:01 [INFO] cpu: Entering function SysTick_Config (entry) at 0x8012E00
+23:17:01 [INFO] cpu: Entering function SysTick_Config at 0x8012E16
+23:17:01 [INFO] cpu: Entering function NVIC_SetPriority (entry) at 0x8012C5C
+23:17:01 [INFO] cpu: Entering function NVIC_SetPriority at 0x8012C70
+23:17:01 [DEBUG] nvic: Priority of IRQs 14, 15 set to 0x0, 0xF0 respectively.
+23:17:01 [INFO] cpu: Entering function NVIC_SetPriority at 0x8012C9C
+23:17:01 [INFO] cpu: Entering function SysTick_Config at 0x8012E28
+23:17:01 [NOISY] nvic: Systick interrupt enabled.
+23:17:01 [NOISY] nvic: Systick timer enabled.
+23:17:01 [INFO] cpu: Entering function HAL_SYSTICK_Config at 0x8012F2E
+23:17:01 [INFO] cpu: Entering function HAL_Init at 0x801E2E8
+23:17:01 [INFO] cpu: Entering function HAL_NVIC_SetPriorityGrouping (entry) at 0x8012E44
+23:17:01 [INFO] cpu: Entering function HAL_NVIC_SetPriorityGrouping at 0x8012E52
+23:17:01 [INFO] cpu: Entering function HAL_NVIC_SetPriorityGrouping at 0x8012E58
+23:17:01 [INFO] cpu: Entering function HAL_NVIC_SetPriorityGrouping at 0x8012E5E
+23:17:01 [INFO] cpu: Entering function HAL_NVIC_SetPriorityGrouping at 0x8012E64
+23:17:01 [INFO] cpu: Entering function HAL_NVIC_SetPriorityGrouping at 0x8012E72
+23:17:01 [INFO] cpu: Entering function NVIC_SetPriorityGrouping (entry) at 0x8012AA8
+23:17:01 [INFO] cpu: Entering function HAL_NVIC_SetPriorityGrouping at 0x8012E78
+23:17:01 [INFO] cpu: Entering function HAL_Init at 0x801E2EE
+23:17:01 [INFO] cpu: Entering function HAL_MspInit (entry) at 0x8021E94
+23:17:01 [WARNING] sysbus: [cpu: 0x8021E94] ReadDoubleWord from non existing peripheral at 0xD0132B30.
+23:17:01 [WARNING] sysbus: [cpu: 0x8021E94] WriteDoubleWord to non existing peripheral at 0xD0132B30, value 0x10.
+23:17:01 [WARNING] sysbus: [cpu: 0x8021E94] ReadDoubleWord from non existing peripheral at 0xD0132B30.
+23:17:01 [WARNING] sysbus: [cpu: 0x8021E94] WriteDoubleWord to non existing peripheral at 0xD0132B30, value 0x4.
+23:17:01 [WARNING] sysbus: [cpu: 0x8021E94] ReadDoubleWord from non existing peripheral at 0xD0132B30.
+23:17:01 [WARNING] sysbus: [cpu: 0x8021E94] WriteDoubleWord to non existing peripheral at 0xD0132B30, value 0x20.
+23:17:01 [WARNING] sysbus: [cpu: 0x8021E94] ReadDoubleWord from non existing peripheral at 0xD0132B30.
+23:17:01 [WARNING] sysbus: [cpu: 0x8021E94] WriteDoubleWord to non existing peripheral at 0xD0132B30, value 0x80.
+23:17:01 [WARNING] sysbus: [cpu: 0x8021E94] ReadDoubleWord from non existing peripheral at 0xD0132B30.
+23:17:01 [WARNING] sysbus: [cpu: 0x8021E94] WriteDoubleWord to non existing peripheral at 0xD0132B30, value 0x1.
+23:17:01 [WARNING] sysbus: [cpu: 0x8021E94] ReadDoubleWord from non existing peripheral at 0xD0132B30.
+23:17:01 [WARNING] sysbus: [cpu: 0x8021E94] WriteDoubleWord to non existing peripheral at 0xD0132B30, value 0x2.
+23:17:01 [WARNING] sysbus: [cpu: 0x8021E94] ReadDoubleWord from non existing peripheral at 0xD0132B30.
+23:17:01 [WARNING] sysbus: [cpu: 0x8021E94] WriteDoubleWord to non existing peripheral at 0xD0132B30, value 0x40.
+23:17:01 [WARNING] sysbus: [cpu: 0x8021E94] ReadDoubleWord from non existing peripheral at 0xD0132B30.
+23:17:01 [WARNING] sysbus: [cpu: 0x8021E94] WriteDoubleWord to non existing peripheral at 0xD0132B30, value 0x8.
+23:17:01 [DEBUG] cpu: Executing hooks registered at address 0x08021F0A
+23:17:01 [NOISY] cpu: Deallocated a 24B pointer at 0x140517191858848.
+23:17:01 [NOISY] cpu: Waiting for a step instruction (PC=0x08021F0A).
+23:17:01 [NOISY] cpu: Deallocated a 24B pointer at 0x140517191903712.
+23:17:25 [DEBUG] cpu: Added hook @ 0x80214D0
+23:17:25 [NOISY] cpu: Stepping 1 step(s)
+23:17:25 [NOISY] cpu: Allocated 24B pointer at 0x140517088235936.
+23:17:25 [NOISY] cpu: Allocated is now 79.5MiB.
+23:17:25 [INFO] cpu: Entering function HAL_MspInit at 0x8021F0A
+23:17:25 [NOISY] cpu: Waiting for a step instruction (PC=0x08021F0C).
+23:17:25 [DEBUG] cpu: Added hook @ 0x8021F0A
+23:17:25 [NOISY] cpu: Stepping 1 step(s)
+23:17:25 [NOISY] cpu: Allocated 24B pointer at 0x140517091413424.
+23:17:25 [NOISY] cpu: Allocated is now 79.5MiB.
+23:17:25 [INFO] cpu: Entering function HAL_MspInit at 0x8021F0C
+23:17:25 [NOISY] cpu: Waiting for a step instruction (PC=0x08021F0E).
+23:17:25 [NOISY] cpu: Stepping 1 step(s)
+23:17:25 [INFO] cpu: Entering function HAL_MspInit at 0x8021F0E
+23:17:25 [NOISY] cpu: Waiting for a step instruction (PC=0x08021F10).
+23:17:25 [NOISY] cpu: Stepping 1 step(s)
+23:17:25 [INFO] cpu: Entering function HAL_MspInit at 0x8021F10
+23:17:25 [NOISY] cpu: Waiting for a step instruction (PC=0x08020F08).
+23:17:25 [DEBUG] cpu: Added hook @ 0x8020F12
+23:17:25 [NOISY] cpu: Allocated 24B pointer at 0x140517090314896.
+23:17:25 [NOISY] cpu: Allocated is now 79.5MiB.
+23:17:25 [INFO] cpu: Entering function HAL_GPIO_Init (entry) at 0x8020F08
+23:17:25 [DEBUG] cpu: Executing hooks registered at address 0x08020F12
+23:17:25 [NOISY] cpu: Deallocated a 24B pointer at 0x140517090314896.
+23:17:25 [NOISY] cpu: Waiting for a step instruction (PC=0x08020F12).
+23:17:25 [NOISY] cpu: Deallocated a 24B pointer at 0x140517088235936.
+23:17:25 [NOISY] cpu: Deallocated a 24B pointer at 0x140517091413424.
+23:18:09 [DEBUG] cpu: Added hook @ 0x80214D0
+23:18:09 [DEBUG] cpu: Added hook @ 0x8021F0A
+23:18:09 [NOISY] cpu: Allocated 24B pointer at 0x140517092481760.
+23:18:09 [NOISY] cpu: Allocated is now 79.5MiB.
+23:18:09 [NOISY] cpu: Allocated 24B pointer at 0x140517092473408.
+23:18:09 [NOISY] cpu: Allocated is now 79.5MiB.
+23:18:09 [INFO] cpu: Entering function HAL_GPIO_Init at 0x8020F12
+23:18:09 [INFO] cpu: Entering function HAL_GPIO_Init at 0x8020F2E
+23:18:09 [INFO] cpu: Entering function HAL_GPIO_Init at 0x8020F36
+23:18:09 [INFO] cpu: Entering function HAL_GPIO_Init at 0x8020FA2
+23:18:09 [INFO] cpu: Entering function HAL_GPIO_Init at 0x8020FC2
+23:18:09 [INFO] cpu: Entering function HAL_GPIO_Init at 0x802149A
+23:18:09 [INFO] cpu: Entering function HAL_GPIO_Init at 0x80214B0
+23:18:09 [INFO] cpu: Entering function HAL_GPIO_DeInit at 0x80214B8
+23:18:09 [INFO] cpu: Entering function HAL_GPIO_DeInit at 0x80214C0
+23:18:09 [INFO] cpu: Entering function HAL_GPIO_DeInit at 0x80214C8
+23:18:09 [INFO] cpu: Entering function HAL_GPIO_DeInit at 0x80214D0
+23:18:09 [DEBUG] cpu: Executing hooks registered at address 0x080214D0
+23:18:09 [NOISY] cpu: Deallocated a 24B pointer at 0x140517092473408.
+23:18:09 [NOISY] cpu: Waiting for a step instruction (PC=0x080214D0).
+23:18:09 [NOISY] cpu: Deallocated a 24B pointer at 0x140517092481760.
+23:18:11 [DEBUG] cpu: Added hook @ 0x8021F0A
+23:18:11 [NOISY] cpu: Stepping 1 step(s)
+23:18:11 [NOISY] cpu: Allocated 24B pointer at 0x140517190751968.
+23:18:11 [NOISY] cpu: Allocated is now 79.5MiB.
+23:18:11 [INFO] cpu: Entering function HAL_GPIO_DeInit at 0x80214D0
+23:18:11 [NOISY] cpu: Waiting for a step instruction (PC=0x080214D2).
+23:18:11 [DEBUG] cpu: Added hook @ 0x80214D0
+23:18:11 [NOISY] cpu: Allocated 24B pointer at 0x140517191931264.
+23:18:11 [NOISY] cpu: Allocated is now 79.5MiB.
+23:18:11 [INFO] cpu: Entering function HAL_GPIO_DeInit at 0x80214D2
+23:18:11 [INFO] cpu: Entering function HAL_GPIO_DeInit at 0x80214D8
+23:18:11 [INFO] cpu: Entering function HAL_GPIO_DeInit at 0x80214E0
+23:18:11 [INFO] cpu: Entering function HAL_GPIO_DeInit at 0x80214E8
+23:18:11 [INFO] cpu: Entering function HAL_GPIO_DeInit at 0x80214F0
+23:18:11 [WARNING] sysbus: [cpu: 0x80214F0] WriteByte to non existing peripheral at 0x2B40683E, value 0xD0.
+23:18:11 [WARNING] sysbus: [cpu: 0x80214F0] WriteByte to non existing peripheral at 0x2B40683D, value 0x13.
+23:18:11 [WARNING] sysbus: [cpu: 0x80214F0] WriteByte to non existing peripheral at 0x2B40683C, value 0x2B.
+23:18:11 [WARNING] sysbus: [cpu: 0x80214F0] WriteByte to non existing peripheral at 0x2B40683B, value 0x0.
+23:18:11 [WARNING] sysbus: [cpu: 0x80214F0] ReadDoubleWord from non existing peripheral at 0x2B406858.
+23:18:11 [WARNING] sysbus: [cpu: 0x80214F0] ReadDoubleWord from non existing peripheral at 0x2B40685C.
+23:18:11 [WARNING] sysbus: [cpu: 0x80214F0] WriteByte to non existing peripheral at 0x2B40685E, value 0x0.
+23:18:11 [WARNING] sysbus: [cpu: 0x80214F0] WriteByte to non existing peripheral at 0x2B40685D, value 0x0.
+23:18:11 [WARNING] sysbus: [cpu: 0x80214F0] WriteByte to non existing peripheral at 0x2B40685C, value 0x0.
+23:18:11 [WARNING] sysbus: [cpu: 0x80214F0] WriteByte to non existing peripheral at 0x2B40685B, value 0x0.
+23:18:11 [WARNING] sysbus: [cpu: 0x80214F0] ReadDoubleWord from non existing peripheral at 0x2B406840.
+23:18:11 [WARNING] sysbus: [cpu: 0x80214F0] ReadDoubleWord from non existing peripheral at 0x2B406844.
+23:18:11 [WARNING] sysbus: [cpu: 0x80214F0] WriteByte to non existing peripheral at 0x2B406846, value 0x0.
+23:18:11 [WARNING] sysbus: [cpu: 0x80214F0] WriteByte to non existing peripheral at 0x2B406845, value 0x0.
+23:18:11 [WARNING] sysbus: [cpu: 0x80214F0] WriteByte to non existing peripheral at 0x2B406844, value 0x0.
+23:18:11 [WARNING] sysbus: [cpu: 0x80214F0] WriteByte to non existing peripheral at 0x2B406843, value 0x0.
+23:18:11 [WARNING] sysbus: [cpu: 0x80214F0] ReadDoubleWord from non existing peripheral at 0x2B40683C.
+23:18:11 [WARNING] sysbus: [cpu: 0x80214F0] ReadDoubleWord from non existing peripheral at 0x2B406840.
+23:18:11 [WARNING] sysbus: [cpu: 0x80214F0] WriteByte to non existing peripheral at 0x2B406842, value 0x0.
+23:18:11 [WARNING] sysbus: [cpu: 0x80214F0] WriteByte to non existing peripheral at 0x2B406841, value 0x0.
+23:18:11 [WARNING] sysbus: [cpu: 0x80214F0] WriteByte to non existing peripheral at 0x2B406840, value 0x0.
+23:18:11 [WARNING] sysbus: [cpu: 0x80214F0] WriteByte to non existing peripheral at 0x2B40683F, value 0x0.
+23:18:11 [WARNING] sysbus: [cpu: 0x80214F0] ReadDoubleWord from non existing peripheral at 0x2B406844.
+23:18:11 [WARNING] sysbus: [cpu: 0x80214F0] ReadDoubleWord from non existing peripheral at 0x2B406848.
+23:18:11 [WARNING] sysbus: [cpu: 0x80214F0] WriteByte to non existing peripheral at 0x2B40684A, value 0x0.
+23:18:11 [WARNING] sysbus: [cpu: 0x80214F0] WriteByte to non existing peripheral at 0x2B406849, value 0x0.
+23:18:11 [WARNING] sysbus: [cpu: 0x80214F0] WriteByte to non existing peripheral at 0x2B406848, value 0x0.
+23:18:11 [WARNING] sysbus: [cpu: 0x80214F0] WriteByte to non existing peripheral at 0x2B406847, value 0x0.
+23:18:11 [WARNING] sysbus: Read from an unimplemented register SYSCFG:EXTICR1 (0x40013808), returning a value from SVD: 0x0.
+23:18:11 [WARNING] sysbus: Write of value 0x0 to an unimplemented register SYSCFG:EXTICR1 (0x40013808) generated from SVD.
+23:18:11 [INFO] cpu: Entering function HAL_GPIO_DeInit at 0x80215A0
+23:18:11 [INFO] cpu: Entering function HAL_GPIO_DeInit at 0x80214D0
+23:18:11 [DEBUG] cpu: Executing hooks registered at address 0x080214D0
+23:18:11 [NOISY] cpu: Deallocated a 24B pointer at 0x140517191931264.
+23:18:11 [NOISY] cpu: Waiting for a step instruction (PC=0x080214D0).
+23:18:11 [NOISY] cpu: Deallocated a 24B pointer at 0x140517190751968.
