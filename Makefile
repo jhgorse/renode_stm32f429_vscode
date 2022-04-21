@@ -9,12 +9,13 @@ CFLAGS += -mfloat-abi=hard -mfpu=fpv4-sp-d16
 CFLAGS += --specs=nosys.specs
 CFLAGS += -DUSE_STDPERIPH_DRIVER
 CFLAGS += -DSTM32F429_439xx
+CFLAGS += -funwind-tables
 CFLAGS += $(INCLUDE)
 LDFLAGS = $(filter-out -c, $(CFLAGS)) -T./stm32f4_flash.ld -Xlinker -Map=test1.map 
 
 $(OUT): $(OBJS) ./stm32f4_flash.ld
-	$(CC) -g $(OBJS) -o $(OUT) $(LDFLAGS)
-	arm-none-eabi-objdump -x test1.elf > test1.list
+	$(CC) -g3 $(OBJS) -o $(OUT) $(LDFLAGS)
+	arm-none-eabi-objdump -xS test1.elf > test1.list
 
 %.o : %.c
 	$(CC) $(CFLAGS) $< -o $@
