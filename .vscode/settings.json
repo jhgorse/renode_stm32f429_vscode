@@ -1,4 +1,10 @@
 {
     "makefile.extensionOutputFolder": "./.vscode",
-    "cortex-debug.variableUseNaturalFormat": false
+    "cortex-debug.variableUseNaturalFormat": false,
+    "files.associations": {
+        "*.repl": "yaml",
+        "*.resc": "shellscript",
+        "queue": "c",
+        "random": "c"
+    }
 }
