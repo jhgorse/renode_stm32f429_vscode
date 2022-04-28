@@ -8,10 +8,11 @@ $name?="STM32F429"
 mach create $name
 
 machine LoadPlatformDescription @platforms/cpus/stm32f429.repl
-machine LoadPlatformDescription $ORIGIN/stm32f429_additions.repl
+machine LoadPlatformDescription $ORIGIN/board_additions.repl
 machine StartGdbServer 3333 true
 
 showAnalyzer usart3
+showAnalyzer ltdc
 
 path add $ORIGIN
 $bin ?= @test1.elf
@@ -19,7 +20,7 @@ $bin ?= @test1.elf
 macro reset
 """
     sysbus.cpu LogFunctionNames True
-	logLevel -1
+	logLevel 0
 	sysbus LoadELF $bin
 """
 
